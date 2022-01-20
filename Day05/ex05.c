@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    //중첩 for문
+    //구구단 출력기
+    for (int i = 2; i <= 9; i++) {
+        for(int j = 1; j <= 9; j++) {
+            printf("%d X %d = %d\n", i, j, (i*j));
+        }
+        printf("\n");
+    }
+    
+    return 0;
+    
+    
+}
