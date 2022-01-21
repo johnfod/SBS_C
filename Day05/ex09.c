@@ -34,7 +34,7 @@ int main(void) {
     }
 
     while(1) {
-        int R = 0;
+        
         // 큰 수를 작은 수로 나눈 나머지를 구한다.
         R = big % small;
 
